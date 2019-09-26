@@ -472,3 +472,16 @@ ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: cent
     transition: all 250ms ease-in-out 0s;
 
 }
+
+/*====================
+	Contact Us Form
+====================== */
+
+.contactform.btn-success{
+    color: white;
+    background-color: black;
+}
+.contactform.btn-success:hover{
+    color: white;
+    background-color: #007373;
+}

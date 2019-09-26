@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\ContactUS;
+use App\Http\Requests\ContactUsRequest;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ContactUSController extends Controller
 {
@@ -16,7 +18,7 @@ class ContactUSController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function contactUSPost(Request $request)
+    public function contactUSPost(ContactUsRequest $request)
     {
         $contact = ContactUS::create([
             'name' => $request->name,
@@ -29,7 +31,8 @@ class ContactUSController extends Controller
                 'name' => $request->get('name'),
                 'email' => $request->get('email'),
                 'user_message' => $request->get('message')
-            ), function($message)
+            ),
+            function($message)
             {
                 $message->from('ttdevelopment.contactus@gmail.com');
                 $message->to('trevor.tanner.developer@gmail.com', 'Admin')->subject('Contact Us Form Submission');

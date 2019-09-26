@@ -8,7 +8,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="col-lg-10 col-md-10 mx-auto">
                     <div class="site-heading text-right">
                         <h1>Building Stellar Websites</h1>
                         <span class="subheading text-right">one line at a time</span>
@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <div class="post-preview">
-                    <a href="#">
+                    <a href="{{ route('contact') }}">
                         <h2 class="post-title">
                             Crafted to Your Needs
                         </h2>
@@ -38,7 +38,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="#">
+                    <a href="{{ route('portfolio') }}">
                         <h2 class="post-title">
                             "A man is only as good as his work"
                         </h2>
@@ -47,7 +47,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="#">
+                    <a href="{{ route('about') }}">
                         <h2 class="post-title">
                             Who am I?
                         </h2>

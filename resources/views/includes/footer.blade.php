@@ -7,7 +7,10 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="widget subscribe no-box">
                         <h5 class="widget-title">Trevor Tanner<span></span></h5>
-                        <p>We can build any website you imagine; large or small</p>
+                        <p class="w-75">
+                        Backend developer using PHP and Laravel, with a wealth of knowledge for frontend
+                        development
+                        </p>
                     </div>
                 </div>
 
@@ -16,19 +19,19 @@
                         <h5 class="widget-title">Quick Links<span></span></h5>
                         <ul class="thumbnail-widget">
                             <li>
-                                <div class="thumb-content"><a href="#.">Home</a></div>
+                                <div class="thumb-content"><a href="{{ route('home') }}">Home</a></div>
                             </li>
                             <li>
-                                <div class="thumb-content"><a href="#.">About</a></div>
+                                <div class="thumb-content"><a href="{{ route('about') }}">About</a></div>
                             </li>
                             <li>
-                                <div class="thumb-content"><a href="#.">Portfolio</a></div>
+                                <div class="thumb-content"><a href="{{ route('portfolio') }}">Portfolio</a></div>
                             </li>
                             <li>
-                                <div class="thumb-content"><a href="#.">Resume</a></div>
+                                <div class="thumb-content"><a href="{{ route('resume') }}">Resume</a></div>
                             </li>
                             <li>
-                                <div class="thumb-content"><a href="#.">Contact</a></div>
+                                <div class="thumb-content"><a href="{{ route('contact') }}">Contact</a></div>
                             </li>
                         </ul>
                     </div>
@@ -36,7 +39,7 @@
 
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="widget no-box">
-                        <h5 class="widget-title">Got a Question?<span></span></h5>
+                        <h5 class="widget-title">Questions?<span></span></h5>
                         <a class="btn" href="mailto:trevor.tanner.developer@gmail.com" target="_blank">E-mail Me</a>
                     </div>
                 </div>

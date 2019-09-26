@@ -22,4 +22,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/about', 'HomeController@about')->name('about');
 Route::get('/portfolio', 'HomeController@portfolio')->name('portfolio');
 Route::get('/resume', 'HomeController@resume')->name('resume');
-Route::get('/contact', 'HomeController@contact')->name('contact');
+
+Route::get('/contact', 'ContactUSController@contactUS')->name('contact');
+Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);

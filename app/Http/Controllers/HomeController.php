@@ -41,8 +41,4 @@ class HomeController extends Controller
         return view('resume');
     }
 
-    public function contact()
-    {
-        return view('contact');
-    }
 }

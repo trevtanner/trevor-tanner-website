@@ -1,0 +1,6 @@
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=25587
+MAIL_USERNAME=trevor.tanner.developer@gmail.com
+MAIL_PASSWORD=rnglevgtelajpydm
+MAIL_ENCRYPTION=tls

@@ -4,16 +4,16 @@
 @endsection
 @section('content')
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/battlestation.jpg')" alt="Battlestation Credit:Josh Sorenson from Pexels">
+    <header class="masthead" style="background-image: url('img/workstation.jpg')" alt="Workstation Credit:rawpixel from pixabay">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <div class="site-heading text-center">
-                        <h1>Trevor Tanner</h1>
+                <div class="col-lg-10 col-md-10 mx-auto">
+                    <div class="site-heading text-left">
+                        <h1>My Previous Work</h1>
                         <br>
-                        <span class="subheading text-center">
-                        Programmer and general computer nerd
+                        <span class="subheading text-left">
+                            Get an idea of my skills and expertise
                     </span>
                     </div>
                 </div>
@@ -24,36 +24,52 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <div class="post-preview">
-                    <a href="#">
-                        <h2 class="post-title">
-                            Who am I?
-                        </h2>
-                    </a>
-                    <p class="">
-                        Programming is my passion, and love to work and projects even in my free time. When I'm not writing code
-                        I'm working on my PC, or playing video games. My computer is my home and the best work is done when the
-                        two are perfectly integrated.
-                    </p>
-                    <p class="post-meta">"Coffee and a freshly started PC are the best way to start a day"</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="#">
-                        <h2 class="post-title">
-                            My Life Outside Work
-                        </h2>
-                    </a>
-                    <p>
-                        Outside of work and my computer I spend most of my days with my fiance and dog; either going on walks
-                        or spending time with our friends.
-                    </p>
-                    <p class="post-meta"></p>
-                </div>
-                <hr>
+            <div class="col-4">
+                <card>
+                    <div class="card-header">
+                        TT Development and Design
+                    </div>
+                    <div class="card-body">
+                        The website your are viewing right now was built by me, using some of the many tools I can bring to
+                        your website as well.
+                    </div>
+                    <div class="card-footer">
+                        <a href="#">trevorstanner.com</a>
+                    </div>
+                </card>
+            </div>
+            <div class="col-4">
+                <card>
+                    <div class="card-header">
+                        Tama Team Sports
+                    </div>
+                    <div class="card-body">
+                    A website built for a custom logo-ing company. This site was to display a basic selection of what goods
+                        and services they offered.
+                    </div>
+                    <div class="card-footer">
+                        <a href="#">trevorstanner.com</a>
+                    </div>
+                </card>
+            </div>
+            <div class="col-4">
+                <card>
+                    <div class="card-header">
+                        TT Development and Design
+                    </div>
+                    <div class="card-body">
+                        The website your are viewing right now was built by me, using some of the many tools I can bring to
+                        your website as well
+                    </div>
+                    <div class="card-footer">
+                        <a href="#">trevorstanner.com</a>
+                    </div>
+                </card>
             </div>
         </div>
+    </div>
+
+
 
         <hr>
 

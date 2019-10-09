@@ -14,7 +14,6 @@
                         <br>
                             Projects
                         </h1>
-                        <br>
                         <span class="subheading text-left">
                             Get an idea of my skills and expertise
                     </span>
@@ -26,9 +25,9 @@
 
     <!-- Main Content -->
     <div class="container">
-        <div class="row">
+        <div class="row pb-2">
             <div class="col-4">
-                <div class="card h-100">
+                <div class="card">
                     <div class="card-header">
                         TT Development and Design
                     </div>
@@ -43,7 +42,7 @@
                 </div>
             </div>
             <div class="col-4">
-                <div class="card h-100">
+                <div class="card">
                     <div class="card-header">
                         Tama Team Sports
                     </div>
@@ -57,7 +56,7 @@
                 </div>
             </div>
             <div class="col-4">
-                <div class="card h-100">
+                <div class="card">
                     <div class="card-header">
                         VaporWave GG Website
                     </div>
@@ -71,10 +70,28 @@
                 </div>
             </div>
         </div>
-    </div>
+                <div class="row pt-2">
+                <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        Trevor Tanner's Personal Blog
+                    </div>
+                    <div class="card-body">
+                       A blog about many things going on in my life. IF you want a deep, inside look into who Trevor Tanner
+                        really is, this is the place to go. I talk about my interests and things I do in my free time, as well
+                        as any large life events I need to share.
+                    </div>
+                    <div class="card-footer">
+                        <a href="#">trevorstanner.blog</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
 
 
 
         <hr>
+
 
 @endsection

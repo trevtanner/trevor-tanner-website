@@ -27,10 +27,10 @@
                         <a class="nav-link" href="{{ route('portfolio') }}">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('resume') }}">Resume</a>
+                        <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+                        <a class="nav-link" href="{{ route('resume') }}">Resume</a>
                     </li>
 {{--                    <li class="nav-item">
                         <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>

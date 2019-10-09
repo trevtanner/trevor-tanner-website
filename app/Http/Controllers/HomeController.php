@@ -38,6 +38,11 @@ class HomeController extends Controller
 
     public function resume()
     {
+        return view('resume-page');
+    }
+
+    public function resumeview()
+    {
         return view('resume');
     }
 

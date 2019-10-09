@@ -7,7 +7,7 @@
 body {
   font-size: 20px;
   color: #212529;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Playfair Display', serif; 'Lora', 'Times New Roman', serif;
 }
 
 p {
@@ -91,7 +91,8 @@ img::-moz-selection {
   position: absolute;
   border-bottom: 1px solid #e9ecef;
   background-color: white;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  font-family:'Oswald', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
@@ -190,6 +191,7 @@ header.masthead .overlay {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
+    font-family: 'Playfair Display', serif; 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 200px 0 150px;
   color: white;
 }
@@ -220,13 +222,14 @@ header.masthead .site-heading .subheading {
   line-height: 1.1;
   display: block;
   margin: 10px 0 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', serif; 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (min-width: 768px) {
   header.masthead .page-heading h1,
   header.masthead .site-heading h1 {
     font-size: 80px;
+      font-family: 'Big Shoulders Text', cursive; 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
 
@@ -329,8 +332,7 @@ header.masthead .post-heading .meta a {
   border-radius: 0;
   background: none;
   box-shadow: none !important;
-  font-family: 'Lora', 'Times New Roman', serif;
-}
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 
 .floating-label-form-group input::-webkit-input-placeholder,
 .floating-label-form-group textarea::-webkit-input-placeholder {
@@ -485,3 +487,27 @@ ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: cent
     color: white;
     background-color: #007373;
 }
+
+
+/*====================
+        Resume
+====================== */
+
+    .resume {
+        height: 1300px;
+        width: 1000px;
+    }
+
+/*====================
+        Blog Button
+====================== */
+
+    .blogbtn {
+        background-color: #007373;
+    }
+
+    .blogbtn:hover {
+        background-color: #7f7f7f;
+    }
+
+

@@ -49,9 +49,9 @@
                     <div class="widget no-box">
                         <h5 class="widget-title">Contact Us<span></span></h5>
                         <ul class="social-footer2">
-                          <li class=""><a href="https://github.com" target="_blank" title="Github"><i class="fa fa-github"style="font-size:30px"></i></a></li>
-                          <li class=""><a href="https://twitter.com" target="_blank" title="twitter"><i class="fa fa-twitter"style="font-size:30px"></i></a></li>
-                          <li class=""><a href="https://facebook.com" target="_blank" title="facebook"><i class="fa fa-facebook"style="font-size:30px"></i></a></li>
+                          <li class=""><a href="https://github.com/trevtanner" target="_blank" title="Github"><i class="fa fa-github"style="font-size:30px"></i></a></li>
+                          <li class=""><a href="https://twitter.com/trevortannerdev" target="_blank" title="twitter"><i class="fa fa-twitter"style="font-size:30px"></i></a></li>
+                          <li class=""><a href="https://www.facebook.com/trevortannerdev/" target="_blank" title="facebook"><i class="fa fa-facebook"style="font-size:30px"></i></a></li>
                         </ul>
                     </div>
                 </div>

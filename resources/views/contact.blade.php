@@ -28,7 +28,7 @@
 Do any of these appy to you?
             <ul>
                 <li>Have a question about a built website</li>
-                <li>Interested in having me build your website</li>
+                <li>Interest in me building your website</li>
                 <li>A current client with a question about your product</li>
                 <li>You have feedback you would like me to see</li>
                 <li>Looking to give me a job</li>
@@ -37,9 +37,6 @@ Do any of these appy to you?
             <p>
 If so, please fill out the form to the right.
             </p>
-            <div class="text-right text-muted">
-                -Trevor Tanner
-            </div>
         </div>
         <div class="col-6">
             <card class="card-default">
@@ -48,7 +45,8 @@ If so, please fill out the form to the right.
                 </div>
                 <div class="card-body">
                     @include('partials.errors')
-                    <form action="{{  route('contactus.store') }}" method="POST" enctype="multipart/form-data">
+
+                    <form method="post" action="{{url('contact-us')}}">
                         @csrf
                         <div class="form-group">
                             <label for="name">Name</label>
@@ -63,7 +61,7 @@ If so, please fill out the form to the right.
                             <textarea id="message" class="form-control" name="message" value=""></textarea>
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-success contactform">
+                            <button type="submit" value="Send" name="Send" class="btn btn-success contactform">
                                 Send
                             </button>
                         </div>

@@ -1,10 +1,10 @@
-You received a message from : {{ $name }}
+You received a message from : {{ $data['name'] }}
 <p>
-    Name: {{ $name }}
+    Name: {{ $data['name'] }}
 </p>
 <p>
-    Email: {{ $email }}
+    Email: {{ $data['email'] }}
 </p>
 <p>
-    Message: {{ $user_message }}
+    Message: {{ $data['message'] }}
 </p>

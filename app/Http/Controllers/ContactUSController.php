@@ -18,27 +18,16 @@ class ContactUSController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function contactUSPost(ContactUsRequest $request)
+    public function send(ContactUsRequest $request)
     {
-        $contact = ContactUS::create([
+        $data = array(
             'name' => $request->name,
             'email' => $request->email,
             'message' => $request->message,
-        ]);
+        );
 
-        Mail::send('email',
-            array(
-                'name' => $request->get('name'),
-                'email' => $request->get('email'),
-                'user_message' => $request->get('message')
-            ),
-            function($message)
-            {
-                $message->from('ttdevelopment.contactus@gmail.com');
-                $message->to('trevor.tanner.developer@gmail.com', 'Admin')->subject('Contact Us Form Submission');
-            });
-
-                return back()->with('success', 'Thanks for contacting us!');
+        Mail::to('trevor.tanner.developer@gmail.com')->send(new \App\Mail\contactUS($data));
+        return back()->with('success', 'Thanks for contacting us!');
     }
 
 }

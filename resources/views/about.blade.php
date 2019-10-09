@@ -9,11 +9,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-md-10 mx-auto">
-                <div class="site-heading text-center">
-                    <h1>Trevor Tanner</h1>
+                <div class="site-heading text-left">
+                    <h1>About Me</h1>
                     <br>
-                    <span class="subheading text-center">
-                        Programmer and general computer nerd
+                    <span class="subheading text-left">
                     </span>
                 </div>
             </div>
@@ -55,40 +54,16 @@
             <hr>
             <div class="post-preview">
                 <h1 class="post-title text-center">
-            My Development Hardware and Software
+            Trevor's Personal Blog
                 </h1>
-              <div class="row pt-2">
-                  <div class="col-4">
-                      <h2 class="text-center">Hardware</h2>
-                      <ul>
-                          <li>Apple MacBook Pro running Linux Ubuntu</li>
-                          <li><a href="#">Custom build computer running Windows10</a></li>
-                          <li>Good ol' fashioned pen and paper</li>
-                      </ul>
-                  </div>
-                  <div class="col-1"></div>
-                  <div class="col-4 pr-2">
-                      <h2>Software</h2>
-                      <ul>
-                          <li>PHPStorm</li>
-                          <li>Atom Text Editor</li>
-                          <li>Laravel Forge</li>
-                          <li>DigitalOcean</li>
-                      </ul>
-                  </div>
-                  <div class="col-3">
-                      <h2>Other</h2>
-                      Languages
-                      <ul>
-                          <li>PHP</li>
-                          <li>JS</li>
-                      </ul>
-                      Framework
-                      <ul>
-                          <li>Laravel</li>
-                      </ul>
-                  </div>
-              </div>
+              <div class="row pt-2 pb-4 justify-content-center">
+                <p>
+                    This page is just a small glimpse into the man Trevor is. If you'd like to get a more in-depth look
+                    at my day-to-day life, as well as any major events, please head over to my blog. Here you can get a real
+                    idea of who I am, as well as things I do in my free time. A working relationship works best if you really
+                    know who you're working with, and this a great way to get that insight on me.
+                </p>
+                  <a class="btn blogbtn" href="trevorstanner.blog" target="_blank">My Blog</a>
             </div>
     </div>
 </div>

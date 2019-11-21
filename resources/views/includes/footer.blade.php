@@ -33,6 +33,9 @@
                             <li>
                                 <div class="thumb-content"><a href="{{ route('contact') }}">Contact</a></div>
                             </li>
+                            <li>
+                                <div class="thumb-content"><a href="trevorstanner.blog">Blog</a></div>
+                            </li>
                         </ul>
                     </div>
                 </div>

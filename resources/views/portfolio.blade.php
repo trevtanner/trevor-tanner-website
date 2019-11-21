@@ -37,7 +37,7 @@
                         plase look at my other projects.
                     </div>
                     <div class="card-footer">
-                        <a href="#">trevorstanner.com</a>
+                        <a href="">trevorstanner.com</a>
                     </div>
                 </div>
             </div>
@@ -51,11 +51,31 @@
                     and services they offered, as well as giving the client an option to add and remove products.
                     </div>
                     <div class="card-footer">
-                        <a href="#">tamateamsports.com</a>
+                        <a href="http://tamateamsports.com">tamateamsports.com</a>
                     </div>
                 </div>
             </div>
             <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        Trevor Tanner's Personal Blog
+                    </div>
+                    <div class="card-body">
+                        A blog about many things going on in my life. IF you want a deep, inside look into who Trevor Tanner
+                        really is, this is the place to go. I talk about my interests and things I do in my free time, as well
+                        as any large life events I need to share.
+                    </div>
+                    <div class="card-footer">
+{{--
+                        <a href="#">trevorstanner.blog</a>
+--}}
+                        Comimg Soon
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="row pt-2">
+                    {{--            <div class="col-4">
                 <div class="card">
                     <div class="card-header">
                         VaporWave GG Website
@@ -68,24 +88,7 @@
                         <a href="#">vaporwavegg.com</a>
                     </div>
                 </div>
-            </div>
-        </div>
-                <div class="row pt-2">
-                <div class="col-4">
-                <div class="card">
-                    <div class="card-header">
-                        Trevor Tanner's Personal Blog
-                    </div>
-                    <div class="card-body">
-                       A blog about many things going on in my life. IF you want a deep, inside look into who Trevor Tanner
-                        really is, this is the place to go. I talk about my interests and things I do in my free time, as well
-                        as any large life events I need to share.
-                    </div>
-                    <div class="card-footer">
-                        <a href="#">trevorstanner.blog</a>
-                    </div>
-                </div>
-                </div>
+            </div>--}}
             </div>
         </div>
 

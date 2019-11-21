@@ -16,11 +16,15 @@
                         Let's get started on your website today
                     </span>
                     </div>
+                    @if(session()->has('success'))
+                        <div class="alert alert-success text-center">
+                            {{ session()->get('success') }}
+                        </div>
+                    @endif
                 </div>
             </div>
         </div>
     </header>
-
     <!-- Main Content -->
     <div class="container d-flex">
         <div class="col-6">

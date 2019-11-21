@@ -27,7 +27,7 @@ class ContactUSController extends Controller
         );
 
         Mail::to('trevor.tanner.developer@gmail.com')->send(new \App\Mail\contactUS($data));
-        return back()->with('success', 'Thanks for contacting us!');
+        return back()->with('success', 'Thanks for contacting me!');
     }
 
 }

@@ -53,7 +53,7 @@
                         </h2>
                     </a>
                     <p class="post-meta">
-                        Learn more about the man behind the keyboard
+                        Learn more about the person behind the keyboard
                     </p>
                 </div>
             </div>

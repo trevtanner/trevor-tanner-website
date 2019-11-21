@@ -46,15 +46,15 @@
                     <ul>
                     <li>Gaming</li>
                     <li>Working out</li>
-                    <li>Watching any of Bay Area teams play</li>
-                    <li>Anything involving lacrosse, including stringing</li>
+                    <li>All things related to my Bay Area teams related (Giants, 49ers, and Warriors)</li>
+                    <li>Anything involving lacrosse, but I enjoy watching or playing most sports</li>
                 </ul>
                 </p>
             </div>
             <hr>
             <div class="post-preview">
                 <h1 class="post-title text-center">
-            Trevor's Personal Blog
+            Trevor's Personal Blog - (Coming Soon)
                 </h1>
               <div class="row pt-2 pb-4 justify-content-center">
                 <p>
@@ -63,7 +63,7 @@
                     idea of who I am, as well as things I do in my free time. A working relationship works best if you really
                     know who you're working with, and this a great way to get that insight on me.
                 </p>
-                  <a class="btn blogbtn" href="trevorstanner.blog" target="_blank">My Blog</a>
+{{--                  <a class="btn blogbtn" href="trevorstanner.blog" target="_blank">My Blog</a>--}}
             </div>
     </div>
 </div>

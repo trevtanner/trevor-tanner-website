@@ -46,7 +46,7 @@
                     <ul>
                     <li>Gaming</li>
                     <li>Working out</li>
-                    <li>All things related to the Bay Area teams related (Giants, 49ers, and Warriors)</li>
+                    <li>All things related to the Bay Area teams (Giants, 49ers, and Warriors)</li>
                     <li>Anything involving lacrosse, but I enjoy watching or playing most sports</li>
                 </ul>
                 </p>

@@ -26,8 +26,9 @@
         </div>
     </header>
     <!-- Main Content -->
-    <div class="container d-flex">
-        <div class="col-6">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
             <p>
 Do any of these appy to you?
             <ul>
@@ -39,10 +40,10 @@ Do any of these appy to you?
             </ul>
         </p>
             <p>
-If so, please fill out the form to the right.
+If so, please fill out the following form.
             </p>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 col-sm-12">
             <card class="card-default">
                 <div class="card-header">
                     Contact Me
@@ -74,5 +75,7 @@ If so, please fill out the form to the right.
             </card>
         </div>
     </div>
+    </div>
+    <hr>
 
 @endsection

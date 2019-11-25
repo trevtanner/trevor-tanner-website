@@ -67,7 +67,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <p>Copyright Trevor Tanner © <?php echo date("Y"); ?>. All rights reserved.</p>
+                    <p>Copyright Trevor Tanner Web Development & Design © <?php echo date("Y"); ?>. All rights reserved.</p>
                 </div>
             </div>
         </div>

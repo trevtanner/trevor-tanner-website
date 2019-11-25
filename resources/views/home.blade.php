@@ -10,8 +10,8 @@
             <div class="row">
                 <div class="col-lg-10 col-md-10 mx-auto">
                     <div class="site-heading text-right">
-                        <h1>Building Stellar Websites</h1>
-                        <span class="subheading text-right">one line at a time</span>
+                        <h1>Trevor Tanner Web Development & Design</h1>
+                        <span class="subheading text-right">Building stellar websites one line at a time</span>
                         <div class="pt-4">
                             <a href="{{ route('contact') }}"><button class="btn" type="button">Reach Out</button></a>
                         </div>

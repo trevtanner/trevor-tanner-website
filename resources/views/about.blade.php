@@ -65,7 +65,8 @@
 {{--                  <a class="btn blogbtn" href="trevorstanner.blog" target="_blank">My Blog</a>--}}
     </div>
 </div>
-
-<hr>
+    </div>
+    <hr>
+</div>
 
 @endsection

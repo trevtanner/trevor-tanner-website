@@ -37,7 +37,7 @@
                         plase look at my other projects.
                     </div>
                     <div class="card-footer">
-                        <a href="">trevorstanner.com</a>
+                        <a href="http://trevorstanner.com">trevorstanner.com</a>
                     </div>
                 </div>
             </div>

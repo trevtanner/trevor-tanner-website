@@ -53,10 +53,9 @@
             </div>
             <hr>
             <div class="post-preview">
-                <h1 class="post-title text-center">
+                <h1 class="post-title">
             Trevor's Personal Blog - (Coming Soon)
                 </h1>
-              <div class="row pt-2 pb-4 justify-content-center">
                 <p>
                     This page is just a small glimpse into the man Trevor is. If you'd like to get a more in-depth look
                     at my day-to-day life, as well as any major events, please head over to my blog. Here you can get a real
@@ -64,7 +63,6 @@
                     know who you're working with, and this a great way to get that insight on me.
                 </p>
 {{--                  <a class="btn blogbtn" href="trevorstanner.blog" target="_blank">My Blog</a>--}}
-            </div>
     </div>
 </div>
 

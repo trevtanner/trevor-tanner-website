@@ -26,7 +26,7 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row pb-2">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 pb-2">
                 <div class="card">
                     <div class="card-header">
                         TT Development and Design
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 pb-2">
                 <div class="card">
                     <div class="card-header">
                         Tama Team Sports
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 pb-2">
                 <div class="card">
                     <div class="card-header">
                         Trevor Tanner's Personal Blog

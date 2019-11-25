@@ -43,13 +43,13 @@
         <hr>
         <br>
         <div class="row">
-            <div class="col-4 post-title text-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 post-title text-center">
                 <br>
                 <br>
+                <h2>Knowledge Base</h2>
                 <br>
-                <h3>Knowledge Base</h3>
             </div>
-            <div class="col-4 text-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
                 Everyday Use
                 <br>
                <ul class="text-left">
@@ -60,12 +60,14 @@
                    <li>Linux Based OS</li>
                    <li>Github//Version Control</li>
                </ul>
+                <hr>
             </div>
-        <div class="col-4 text-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center">
             Previous Experience
             <br>
             <ul class="text-left">
                 <li>Visual Studio//Visual Basic</li>
+                <li>C++</li>
             </ul>
         </div>
             </div>

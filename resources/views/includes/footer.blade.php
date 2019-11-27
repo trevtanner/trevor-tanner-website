@@ -43,7 +43,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="widget no-box">
                         <h5 class="widget-title">Questions?<span></span></h5>
-                        <a class="btn" href="contactus@trevorstanner.com" target="_blank">E-mail Me</a>
+                        <a class="btn" href="mailto:contactus@trevorstanner.com" target="_blank">E-mail Me</a>
                     </div>
                 </div>
 

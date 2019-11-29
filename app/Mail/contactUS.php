@@ -28,6 +28,6 @@ class contactUS extends Mailable
      */
     public function build()
     {
-        return $this->from('contact.us')->subject('Message from Contact Us Page')->view('email')->with('data', $this->data);
+        return $this->from('TTcontactus@site.com')->subject('Message from Contact Us Page')->view('email')->with('data', $this->data);
     }
 }

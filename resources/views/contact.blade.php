@@ -29,9 +29,10 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <p class="col-lg-6 col-md-12 col-sm-12">
-            <p>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <p>
                 Do any of these appy to you?
+                </p>
             <ul>
                 <li>Have a question about a built website</li>
                 <li>Interest in me building your website</li>
@@ -39,10 +40,10 @@
                 <li>You have feedback you would like me to see</li>
                 <li>Looking to give me a job</li>
             </ul>
-            </p>
-            <p>
+                <p>
                 If so, please fill out the following form.
             </p>
+
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
             <card class="card-default">
@@ -53,7 +54,7 @@
                     @include('partials.errors')
 
                     <form method="post" action="{{route('contactus')}}">
-                        {{ csrf_field() }}
+                        @csrf
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" class="form-control" name="name">

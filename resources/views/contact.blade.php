@@ -53,18 +53,18 @@
                     @include('partials.errors')
 
                     <form method="post" action="{{route('contactus')}}">
-                        @csrf
+                        {{ csrf_field() }}
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" id="name" class="form-control" name="name" value="">
+                            <input type="text" id="name" class="form-control" name="name">
                         </div>
                         <div class="form-group">
                             <label for="email">E-mail</label>
-                            <input type="text" id="email" class="form-control" name="email" value="">
+                            <input type="text" id="email" class="form-control" name="email">
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea id="message" class="form-control" name="message" value=""></textarea>
+                            <textarea id="message" class="form-control" name="message"></textarea>
                         </div>
                         <div class="form-group">
                             <button type="submit" value="Send" name="Send" class="btn btn-success contactform">

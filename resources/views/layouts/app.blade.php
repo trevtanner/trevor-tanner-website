@@ -12,13 +12,15 @@
 
 @yield('title')
 
-    <!-- Scripts -->
+<!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i|Oswald|Playfair+Display:400,400i&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:400,400i|Oswald|Playfair+Display:400,400i&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
 
     <!-- Styles -->
@@ -28,11 +30,11 @@
 </head>
 <body>
 
-        @include('includes.header')
-        <main class="">
-            @yield('content')
-        </main>
+@include('includes.header')
+<main class="">
+    @yield('content')
+</main>
 
-            @include('includes.footer')
+@include('includes.footer')
 </body>
 </html>

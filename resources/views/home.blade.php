@@ -4,7 +4,8 @@
 @endsection
 @section('content')
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/astronomy-constellation.jpg')" alt=" Space Photo; Credit:Arnie Chou from Pexels">
+    <header class="masthead" style="background-image: url('img/astronomy-constellation.jpg')"
+            alt=" Space Photo; Credit:Arnie Chou from Pexels">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -13,7 +14,9 @@
                         <h1>Trevor Tanner Web Development & Design</h1>
                         <span class="subheading text-right">Building stellar websites one line at a time</span>
                         <div class="pt-4">
-                            <a href="{{ route('contact') }}"><button class="btn" type="button">Reach Out</button></a>
+                            <a href="{{ route('contact') }}">
+                                <button class="btn" type="button">Reach Out</button>
+                            </a>
                         </div>
                     </div>
                 </div>

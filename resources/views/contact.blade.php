@@ -4,7 +4,8 @@
 @endsection
 @section('content')
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/contactus.jpg')" alt="Contact Us Photo Credit:StartupStockPhotos from Pixabay">
+    <header class="masthead" style="background-image: url('img/contactus.jpg')"
+            alt="Contact Us Photo Credit:StartupStockPhotos from Pixabay">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -28,9 +29,9 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
+            <p class="col-lg-6 col-md-12 col-sm-12">
             <p>
-Do any of these appy to you?
+                Do any of these appy to you?
             <ul>
                 <li>Have a question about a built website</li>
                 <li>Interest in me building your website</li>
@@ -38,9 +39,9 @@ Do any of these appy to you?
                 <li>You have feedback you would like me to see</li>
                 <li>Looking to give me a job</li>
             </ul>
-        </p>
+            </p>
             <p>
-If so, please fill out the following form.
+                If so, please fill out the following form.
             </p>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -51,7 +52,7 @@ If so, please fill out the following form.
                 <div class="card-body">
                     @include('partials.errors')
 
-                    <form method="post" action="{{url('contact-us')}}">
+                    <form method="post" action="{{route('contactus')}}">
                         @csrf
                         <div class="form-group">
                             <label for="name">Name</label>
@@ -74,7 +75,6 @@ If so, please fill out the following form.
                 </div>
             </card>
         </div>
-    </div>
     </div>
     <hr>
 

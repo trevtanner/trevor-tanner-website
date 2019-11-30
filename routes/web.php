@@ -25,4 +25,4 @@ Route::get('/resume', 'HomeController@resume')->name('resume');
 Route::get('/resume-view', 'HomeController@resumeview')->name('resume.view');
 
 Route::get('/contact', 'ContactUSController@contactUS')->name('contact');
-Route::post('/contact-us', 'ContactUSController@send');
+Route::post('/contact-us', 'ContactUSController@send')->name('contactus');

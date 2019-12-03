@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    <title>Trevor Tanner</title>
+    <title>TT Home Page</title>
 @endsection
 @section('content')
     <!-- Page Header -->
@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-lg-10 col-md-10 mx-auto">
                     <div class="site-heading text-right">
-                        <h1>Trevor Tanner Web Development & Design</h1>
+                        <h1>TT Web Development & Design</h1>
                         <span class="subheading text-right">Building stellar websites one line at a time</span>
                         <div class="pt-4">
                             <a href="{{ route('contact') }}">

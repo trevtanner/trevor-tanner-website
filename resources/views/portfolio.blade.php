@@ -30,7 +30,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 pb-2">
                 <div class="card">
                     <div class="card-header">
-                        TT Development and Design
+                        TT Web Development & Design
                     </div>
                     <div class="card-body">
                         The website your are viewing right now was built by me, using some of the many tools I can bring

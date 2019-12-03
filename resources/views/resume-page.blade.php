@@ -62,7 +62,7 @@
                 <ul class="text-left">
                     <li>Laravel//PHP</li>
                     <li>HTML5//CSS</li>
-                    <li>Javascript//JS</li>
+                    <li>Javascript//JS//Vue.js</li>
                     <li>Laravel Forge//DigitalOcean</li>
                     <li>Linux Based OS</li>
                     <li>Github//Version Control</li>

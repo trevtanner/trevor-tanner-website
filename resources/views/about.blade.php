@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    <title>TT About Me</title>
+    <title>TT Web Development & Design - About</title>
 @endsection
 @section('content')
     <!-- Page Header -->

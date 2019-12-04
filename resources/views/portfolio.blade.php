@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('title')
-    <title>TT Portfolio</title>
+    <title>TT Web Development & Design - Previous Projects</title>
+    <meta name="description" content="Previous projects worked on by TT Web Development & Design, with short descriptions
+    of the projects along with URLs to each if applicable.">
 @endsection
 @section('content')
     <!-- Page Header -->

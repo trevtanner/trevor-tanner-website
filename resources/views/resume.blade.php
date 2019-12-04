@@ -29,7 +29,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <iframe src="/pdf/Trevor_Tanner_Resume.pdf" class="resume">
+            <iframe src="/pdf/Trevor-Tanner-Resume.pdf" class="resume">
 
                 This browser does not support PDFs. Please download the PDF to view it: Download PDF
 

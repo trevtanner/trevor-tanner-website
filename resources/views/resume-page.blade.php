@@ -1,6 +1,9 @@
 @extends('layouts.app')
 @section('title')
-    <title>TT Resume</title>
+    <title>TT Web Development & Design - Trevor Tanner's Resume</title>
+    <meta name="description" content="TT Web Development & Design">
+    <meta name="description" content="Resume and professional information for Trevor Tanner, Founder and lead programmer
+    for TT Web Development & Design.">
 @endsection
 @section('content')
     <!-- Page Header -->

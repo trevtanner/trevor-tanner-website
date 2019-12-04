@@ -1,6 +1,9 @@
 @extends('layouts.app')
 @section('title')
-    <title>TT Home Page</title>
+    <title>TT Web Development & Design - Building personalized websites for modern businesses</title>
+    <meta name="description" content="TT Web Development & Design provides a user friendly experience when it comes
+    building a website for whatever your needs may be. From personal websites to fully scaled professional business
+    websites, TT Web Development & Design has you covered.">
 @endsection
 @section('content')
     <!-- Page Header -->

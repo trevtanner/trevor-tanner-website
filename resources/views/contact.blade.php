@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('title')
-    <title>TT Contact</title>
+    <title>TT Web Development & Design - Contact Us</title>
+    <meta name="description" content="Contact Form to email TT Web Development & Design with any questions or inquires
+    regarding employment or contracting to build your very own personalized website.">
 @endsection
 @section('content')
     <!-- Page Header -->

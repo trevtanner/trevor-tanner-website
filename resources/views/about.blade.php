@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('title')
     <title>TT Web Development & Design - About</title>
+    <meta name="description" content="A deeper look into the Founder/Lead Programmer of TT Web Development & Design Trevor
+    Tanner. Information includes a general about paragraph and interest outside of creating and designing websites.">
 @endsection
 @section('content')
     <!-- Page Header -->

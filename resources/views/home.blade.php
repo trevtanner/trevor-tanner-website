@@ -7,8 +7,8 @@
 @endsection
 @section('content')
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/astronomy-constellation.webp')"
-            alt=" Space Photo; Credit:Arnie Chou from Pexels">
+    <header class="masthead" style="background-image: url('img/homepage-img.webp')"
+            alt=" Space Photo; Credit:Ales Nesetril from Unsplash">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">

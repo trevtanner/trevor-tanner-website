@@ -16,7 +16,7 @@ employers. It was built using HTML, CSS, Javascript, and PHP using the Laravel F
 
 #### Deployed With
 - Laravel Forge
-- Digital Oceans
+- Digital Ocean
 
 ### Credits
 Created by Trevor Tanner

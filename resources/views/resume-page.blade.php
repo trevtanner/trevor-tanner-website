@@ -7,7 +7,7 @@
 @endsection
 @section('content')
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/resumebg.jpg')"
+    <header class="masthead" style="background-image: url('img/resumebg.webp')"
             alt="Office/Workspace Credit: Nastuh Abootalebi on Unsplash">
         <div class="overlay"></div>
         <div class="container">

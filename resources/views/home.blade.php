@@ -1,13 +1,13 @@
 @extends('layouts.app')
 @section('title')
     <title>TT Web Development & Design - Building personalized websites for modern businesses</title>
-    <meta name="description" content="TT Web Development & Design provides a user friendly experience when it comes
-    building a website for whatever your needs may be. From personal websites to fully scaled professional business
-    websites, TT Web Development & Design has you covered.">
+    <meta name="description" content="TT Web Development & Design, founded in 2019 provides a user friendly experience
+    when it comes building a website for whatever your needs may be. From personal websites to fully scaled professional
+    business websites, TT Web Development & Design has you covered.">
 @endsection
 @section('content')
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/astronomy-constellation.jpg')"
+    <header class="masthead" style="background-image: url('img/astronomy-constellation.webp')"
             alt=" Space Photo; Credit:Arnie Chou from Pexels">
         <div class="overlay"></div>
         <div class="container">

@@ -36,6 +36,9 @@
                             <li>
                                 <div class="thumb-content"><a href="trevorstanner.blog"></a>Blog-Coming Soon</div>
                             </li>
+                            <li>
+                                <div class="thumb-content"><a href="{{ route('privacy') }}">Privacy Policy</a></div>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -20,6 +20,7 @@ Route::get('/about', 'HomeController@about')->name('about');
 Route::get('/portfolio', 'HomeController@portfolio')->name('portfolio');
 Route::get('/resume', 'HomeController@resume')->name('resume');
 Route::get('/resume-view', 'HomeController@resumeview')->name('resume.view');
+Route::get('/privacy-policy', 'HomeController@privacypolicy')->name('privacy');
 
 Route::get('/contact', 'ContactUSController@contactUS')->name('contact');
 Route::post('/contact-us', 'ContactUSController@send')->name('contactus');

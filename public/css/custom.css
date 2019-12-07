@@ -107,6 +107,13 @@ img::-moz-selection {
     padding: 13px;
     text-transform: uppercase;
     color: #343a40;
+
+}#mainNav .navbar-toggler {
+    font-size: 12px;
+    font-weight: 800;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #343a40;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -179,6 +186,7 @@ img::-moz-selection {
         transform: translate3d(0, 100%, 0);
     }
 }
+
 
 header.masthead {
     margin-bottom: 50px;

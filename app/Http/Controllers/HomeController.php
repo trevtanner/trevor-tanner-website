@@ -46,4 +46,9 @@ class HomeController extends Controller
         return view('resume');
     }
 
+    public function privacypolicy()
+    {
+        return view('privacy');
+    }
+
 }

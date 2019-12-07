@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title')
     <title>TT Web Development & Design - Building personalized websites for modern businesses</title>
-    <meta name="description" content="TT Web Development & Design, founded in 2019 provides a user friendly experience
+    <meta name="description" content="TT Web Development & Design, founded in 2019 provides a client minded experience
     when it comes building a website for whatever your needs may be. From personal websites to fully scaled professional
     business websites, TT Web Development & Design has you covered.">
 @endsection

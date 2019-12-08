@@ -10,3 +10,4 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 /startbootstrap-clean-blog-gh-pages/
+!/public/js/app-org.js

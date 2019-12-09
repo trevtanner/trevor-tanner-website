@@ -6,7 +6,7 @@
 @endsection
 @section('content')
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/workstation.webp')"
+    <header class="masthead" style="background-image: url('img/workstation.jpeg')"
             alt="Workstation Credit:rawpixel from pixabay">
         <div class="overlay"></div>
         <div class="container">

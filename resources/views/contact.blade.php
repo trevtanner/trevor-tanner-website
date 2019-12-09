@@ -6,7 +6,7 @@
 @endsection
 @section('content')
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/contactus.webp')"
+    <header class="masthead" style="background-image: url('img/contactus.jpeg')"
             alt="Contact Us Photo Credit:StartupStockPhotos from Pixabay">
         <div class="overlay"></div>
         <div class="container">

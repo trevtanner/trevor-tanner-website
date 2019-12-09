@@ -7,7 +7,7 @@
 @endsection
 @section('content')
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/homepage-img.webp')"
+    <header class="masthead" style="background-image: url('img/homepage-img.jpeg')"
             alt=" Space Photo; Credit:Ales Nesetril from Unsplash">
         <div class="overlay"></div>
         <div class="container">

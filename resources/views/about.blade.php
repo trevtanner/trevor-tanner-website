@@ -6,7 +6,7 @@
 @endsection
 @section('content')
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/battlestation.webp')"
+    <header class="masthead" style="background-image: url('img/battlestation.jpeg')"
             alt="Battlestation Credit:Josh Sorenson from Pexels">
         <div class="overlay"></div>
         <div class="container">
